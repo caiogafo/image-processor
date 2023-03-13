@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+.env.local
+node_modules/
+dist/
+.DS_Store
+*.log
+u2net/
+u2net_human_seg/
