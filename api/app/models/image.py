@@ -29,3 +29,4 @@ class Image(Base):
     operations = Column(JSON, default=list)
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+# Image model with SQLAlchemy ORM and ProcessingStatus enum
