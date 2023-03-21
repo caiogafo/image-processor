@@ -20,3 +20,4 @@ def upload_bytes(data: bytes, public_id: str, folder: str = "image-processor") -
 
 def delete_image(public_id: str):
     cloudinary.uploader.destroy(public_id)
+# Cloudinary SDK configured with env credentials
