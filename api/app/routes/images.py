@@ -119,3 +119,4 @@ def delete_image(image_id: UUID, db: Session = Depends(get_db)):
         raise HTTPException(404, "Imagem não encontrada.")
     db.delete(image)
     db.commit()
+# Upload endpoint with file validation and background processing
