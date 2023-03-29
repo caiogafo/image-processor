@@ -35,3 +35,4 @@ def get_image_info(image_bytes: bytes) -> dict:
         "format": image.format,
         "mode": image.mode,
     }
+# Pillow image processor with LANCZOS resize and quality compression
