@@ -10,3 +10,4 @@ def remove_background(image_bytes: bytes) -> bytes:
     buffer = BytesIO()
     image.save(buffer, format="PNG")
     return buffer.getvalue()
+# rembg uses U2Net model, downloaded on first call (~170MB)
