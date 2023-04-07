@@ -25,3 +25,6 @@ app.include_router(images_router, prefix="/api")
 @app.get("/")
 def root():
     return {"status": "ok", "service": "Image Processor API"}
+
+# Background task processing keeps the upload response fast
+# while Pillow + rembg run asynchronously in the server process
