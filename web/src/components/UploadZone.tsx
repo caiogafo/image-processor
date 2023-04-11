@@ -77,3 +77,4 @@ export function UploadZone({ onUploaded }: Props) {
     </div>
   )
 }
+/* UploadZone with drag-and-drop and toggle for AI bg removal */
