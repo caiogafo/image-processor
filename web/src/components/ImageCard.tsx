@@ -125,3 +125,4 @@ export function ImageCard({ image: initial, onDeleted }: Props) {
     </div>
   )
 }
+/* ImageCard polls /images/:id every 2s while status is pending/processing */
