@@ -93,3 +93,4 @@ export default function Home() {
     </div>
   )
 }
+/* Gallery loads all images and updates on upload/delete */
