@@ -35,7 +35,7 @@ export default function Home() {
           <span className="text-2xl">🖼️</span>
           <div>
             <h1 className="text-white font-black text-xl">Image Processor</h1>
-            <p className="text-slate-400 text-xs">Redimensionamento automático + IA com rembg</p>
+            <p className="text-slate-400 text-xs">Upload · Resize automático · Remoção de fundo com IA</p>
           </div>
         </div>
       </header>
