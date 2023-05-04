@@ -14,3 +14,15 @@ export interface ImageRecord {
   operations: string[]
   created_at: string
 }
+
+export interface ProcessingOptions {
+  remove_bg: boolean
+  auto_enhance: boolean
+  custom_width: string
+  custom_height: string
+  brightness: number
+  contrast: number
+  saturation: number
+  sharpness: number
+  output_format: 'JPEG' | 'PNG' | 'WEBP'
+}
